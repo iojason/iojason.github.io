@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>@iojason | Linker</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <meta name="description"
+        content="@iojason | Learn to code and break into tech." />
+    <meta property="og:title" content="@iojason | Linker" />
+    <meta property="og:description"
+        content="@iojason | Learn to code and break into tech" />
+    <meta property="og:image" content="https://iojason.github.io/img/background.jpg" />
+    <meta property="og:image:alt" content="Linker background photo of a wall with blue neon light" />
+
+    <meta name="twitter:title" content="@iojason | Linker">
+    <meta name="twitter:description"
+        content="@iojason | Learn to code and break into tech" />
+    <meta name="twitter:url" content="https://github.com/iojason/linker/?src=twitter" />
+    <meta name="twitter:image:src" content="https://iojason.github.io/img/background.jpg" />
+    <meta name="twitter:image:alt" content="Linker background photo of a wall with blue neon light" />
+    <meta name="twitter:creator" content="@_iojason" />
+    <meta name="twitter:site" content="@_iojason" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="preload" as="image" href="./img/background.jpg">
+    <link rel="preload" as="image" href="./img/iojason-375.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/linker-style.css">
+</head>
+<body>
+    <div class="mdc-layout-grid content">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <div class="mdc-dialog qr-code">
+                    <div class="mdc-dialog__container">
+                        <div class="mdc-dialog__surface" role="alertdialog" aria-modal="true"
+                            aria-labelledby="my-dialog-title" aria-describedby="my-dialog-content">
+                            <div class="mdc-dialog__content" id="my-dialog-content">
+                                <h2 class="mdc-dialog__title">Share Linker</h2>
+                                <div id="qr-code-image" tabindex="0"></div>
+                            </div>
+                            <div class="mdc-dialog__actions">
+                                <button type="button" class="mdc-button mdc-button--outlined mdc-dialog__button"
+                                    id="copy-linker-url">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label" id="copy-linker-url-label">Share with link</span>
+                                </button>
+                                <button type="button" class="mdc-button mdc-dialog__button"
+                                    data-mdc-dialog-action="close">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label">Close</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdc-dialog__scrim"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <button class="mdc-button display-qr-code">
+                    <img class="profile-pic">
+                </button>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <a href="https://github.com/iojason/linker" target="_blank">
+                    <h1 class="profile-title">@iojason</h1>
+                </a>
+                <h2 class="profile-description">learn to code with me</h2>
+            </div>
+             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <a href="https://github.com/iojason/linker" target="_blank">
+                    <button class="mdc-button mdc-button--outlined">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">Create your own linker page</span>
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">code</i>
+                    </button>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <a href="https://calendly.com/iojason/30min" target="_blank">
+                    <button class="mdc-button mdc-button--raised">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">Book a 1:1 Mentoring Call</span>
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">today</i>
+                    </button>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <a href="https://www.linkedin.com/in/iojason/" target="_blank">
+                    <button class="mdc-button mdc-button--raised">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">LinkedIn</span>
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">group_add</i>
+                    </button>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <a href="https://twitter.com/_iojason" target="_blank">
+                    <button class="mdc-button mdc-button--raised">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">Twitter</span>
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">verified</i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__inner social-icons">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <div class="mdc-touch-target-wrapper">
+                    <a href="https://www.youtube.com/@iojason" target="_blank" class="mdc-icon-button youtube-link">
+                        <div id="youtube-logo"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.iojason.com" target="_blank" class="no-style">
+            <p>&copy J Λ S O N</p>
+        </a>
+    </footer>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="./js/logo-animation.js"></script>
+    <script src="./js/qr-code.js"></script>
+</body>
+</html>
