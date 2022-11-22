@@ -1,5 +1,5 @@
 # Linker
-Linker is a landing page to connect your entire social media in one place (similar to [Linktree]).
+[Linker] is a landing page to connect your entire social media in one place (similar to [Linktree]).
 
 This is part of a free tutorial that I host to help students learn basic web development by building their own profile webpage and hosting it for free on [GitHub Pages]. 
 
@@ -79,7 +79,7 @@ Like this project? Write a review and feel free to tag me @iojason to give me th
 Jason
 
 
-
+[Linker]: <https://github.com/iojason/linker>
 [LinkTree]: <https://linktr.ee/>
 [Material Design by Google]: <https://m2.material.io/>
 [Visual Studio Code]: <https://code.visualstudio.com/>
