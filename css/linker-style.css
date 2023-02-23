@@ -1,7 +1,7 @@
 :root {
-    --background-image: url("../img/background.jpg");
+    --background-image: url("../img/background.webp");
     /* Photo by Mathias Reding*/
-    --profile-image: url("../img/iojason-375.png");
+    --profile-image: url("../img/iojason-375.webp");
     --button-text-color: #006AF9;
     --text-color: #FFFFFF;
 }
