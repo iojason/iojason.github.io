@@ -9,6 +9,10 @@
 html,
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #000; /* Fallback color that matches the dark theme */
 }
 
 body {
@@ -21,6 +25,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overscroll-behavior: none; /* Prevents bounce effect on some browsers */
 }
 
 a {
