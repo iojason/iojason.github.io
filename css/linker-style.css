@@ -1,9 +1,8 @@
 :root {
     --background-image: url("../img/background.webp");
-    /* Photo by Mathias Reding*/
     --profile-image: url("../img/iojason-375.webp");
     --button-text-color: #006AF9;
-    --text-color: #fff; /* Orange for a warm and energetic look */
+    --text-color: #fff; 
 }
 
 html,
@@ -12,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #000; /* Fallback color that matches the dark theme */
+    background-color: #000;
 }
 
 body {
