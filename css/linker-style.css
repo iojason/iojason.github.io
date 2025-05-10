@@ -3,7 +3,7 @@
     /* Photo by Mathias Reding*/
     --profile-image: url("../img/iojason-375.webp");
     --button-text-color: #006AF9;
-    --text-color: #FFFFFF;
+    --text-color: #fff; /* Orange for a warm and energetic look */
 }
 
 html,
@@ -51,7 +51,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: var(--text-color);
     font-size: 1rem; /* 16px */
     line-height: 1.5;
     margin: 0.5rem 0;
@@ -78,13 +78,17 @@ footer {
 }
 
 .mdc-button {
-    background-color: white !important;
-    color: var(--button-text-color) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: white !important;
     height: 44px;
     height: auto;
     padding: 16px;
     width: 100%;
     border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mdc-button.display-qr-code {
@@ -93,7 +97,11 @@ footer {
 }
 
 .mdc-button--outlined:not(:disabled) {
-    border-color: var(--button-text-color) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mdc-icon-button svg {
