@@ -147,26 +147,24 @@ footer {
 }
 
 .mdc-dialog__surface {
-    background-color: #000000 !important; /* Black background for the modal */
-    border-radius: 12px; /* Optional: match button border-radius */
+    background-color: #000000 !important; 
+    border-radius: 12px; 
 }
 
 .mdc-dialog__title {
-    color: var(--text-color) !important; /* Ensure title is white */
+    color: var(--text-color) !important;
 }
 
-/* Style buttons specifically within the dialog */
+
 .mdc-dialog__button .mdc-button__label {
-    color: var(--text-color) !important; /* White text for dialog buttons */
+    color: var(--text-color) !important; 
 }
 
-/* Keep the outlined button's border visible or style as needed */
+
 .mdc-dialog__button.mdc-button--outlined {
-    border-color: rgba(255, 255, 255, 0.7) !important; /* Lighter border for outlined button */
-    /* Or use your glassmorphism border style if preferred */
+    border-color: rgba(255, 255, 255, 0.7) !important; 
 }
 
-/* Ensure buttons in dialog actions are aligned */
 .mdc-dialog__actions {
-    justify-content: flex-end; /* Default alignment, adjust as needed e.g., space-between */
+    justify-content: flex-end; 
 }
