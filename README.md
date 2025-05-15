@@ -12,7 +12,7 @@ This is part of a free tutorial that I host to help students learn basic web dev
 
 `git checkout complete` for the final code.
 
-## What You Will Learn In My Class
+## What You Will Learn In Class
 - How to create your own landing page to reference all your social media contents in a single minimalistic place.
 - A Tree called DOM.
 - HTML, CSS, JavaScript/JS
@@ -60,7 +60,7 @@ git push
 Google Analytics, API integration, Subsciption, Alerts, and many other ideas I have. 
 
 ## See a Bug?
-Hit me up on Twitter [@_iojason] and we can squash it right away.
+email me at hi@iojason.com
 
 ## License
 
@@ -68,7 +68,7 @@ MIT
 
 **It's FREE. Oh yeah!**
 
-Like this project? Write a review and feel free to tag me @iojason to give me that sweet fame. Even better, [BUY me a delicous 🍕](https://www.buymeacoffee.com/iojason)!
+Like this project? [Buy me a 🍕](https://www.buymeacoffee.com/iojason)
 
 > Technology is best when it brings people together.
 > —Matt Mullenweg
@@ -87,4 +87,3 @@ Jason
 [GitHub]: <https://github.com/>
 [GitHub Pages]: <https://pages.github.com/>
 [new repository in GitHub]: <https://github.com/new/>
-[@_iojason]: <https://twitter.com/_iojason>
